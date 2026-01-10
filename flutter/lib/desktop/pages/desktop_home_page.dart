@@ -60,7 +60,7 @@ class _DesktopHomePageState extends State<DesktopHomePage>
   Widget build(BuildContext context) {
     super.build(context);
     final isIncomingOnly = bind.isIncomingOnly();
-    mainSetStrOption(kOptionAccessMode,"full");    增加安全设置为全部权限
+    mainSetStrOption(kOptionAccessMode,"full");    //增加安全设置为全部权限
     return _buildBlock(
         child: Row(
       crossAxisAlignment: CrossAxisAlignment.start,
